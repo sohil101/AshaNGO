@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+  background-color:#3d88ea ;
+}
+.logo img{
+  height: 50px;
+  width: auto;
+  float: left;
+  margin-left: 30px;
+}
+.navbar{
+  margin-bottom: 0px !important ;
+}
+ul{
+  list-style: none; 
+}
+/*for nav bar*/
+  /* header,nav ul,nav li {
+   background-color: #3d88ea;
+   padding: 5px;
+   align-items: center;
+   justify-content: space-between;
+   font-weight: 600;
+   display: flex;
+   height: 40px; 
+   } */ 
+
+  .headerNav{
+    list-style-type: none;
+    padding-left: 20%;
+    padding-top: 1%;
+  }
+
+  /* for making space between menu */
+  /* .nav-item{
+    padding: 20px;
+    margin-right: 50px; */
+    /* justify-content: space-between; */
+  /* } */
+
+/* for manage logo in nav bar */
+  /* .logo img {
+    height: 80px;
+    width:auto;
+    margin-left: 50px;
+    margin-top: 5px;
+  } */
+
+/* for menu's text decoration */
+  nav a {
+    color: #fcfafa;
+  }
+  li a{
+    margin-left: 120px;
+    color:#fefcfb ;
+    font-weight: 700;
+  }
+/* for donation button */
+  .dbtn {
+    background-color: #fefcfb;
+    color: #3d88ea;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    float: right;
+    margin-right: 40px;
+    margin-top: 3px;
+    font-weight: 700;
+  } 
+
+  .box img{
+    height: 40%;
+    width: 100%;
+  }
+
+/* for text over image */
+  .join{
+    color: #fcfafa;
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    top: 20%;
+    bottom: 50%;
+    left: 33%;
+  }
+
+/* for joining button */
+  .btn{
+    color: #3d88ea;
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    bottom: 50%;
+    left: 25%;
+  }
+
+.joinButton{
+  height: 40px;
+  margin: auto;
+  position: absolute;
+  top: 60%;
+  bottom: 50%;
+  left: 27%;
+  padding: 10px;
+  border-radius: 10px;
+  color: #3d88ea;
+  font-weight: 600;
+}
+
+/* for intro */
+
+.box-mid{
+  background-color: #3d88ea;
+  font-size: 28px;
+  padding: 50px;
+}
+
+/* Welcome Note */
+.Welcome{
+text-align: center;
+}
+
+/* for custom underline */
+.devider{
+  width: 50%;
+  height: 6px;
+  background-color: #fcfafa;
+  margin: 40px;
+  margin-left: 24%;
+}
+
+/* Text in mid area */
+.p1{
+  margin-top: 30px;
+  margin-left: 17%;
+  margin-right: 10%;
+}
+
+/* Form Page Started */
+.formPage{
+  margin-bottom: 10%;
+  margin-top: 7%;
+}
+.Mailing{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+input[type="text"],input[type="mail"]{
+	width: 80%;
+	padding: 12px;
+	border: 1px solid darkgray;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+label[for="fname"],label[for="lname"],label[for="mail"]{
+  margin-left: 12px;
+}
+
+input[type="submit"]{
+  padding: 10px 35px;
+  margin-left: 12px;
+  background-color: #549bf7;
+  border-radius: 5px;
+  color: #fefcfb;
+}
+
+form{
+  margin-top: 40px;
+  margin-left: 20%;
+}
+
+/* Footer Part */
+ footer{
+  background-color: #3d88ea;
+  color: #fcfafa;
+  margin-top: 15px;
+}
+
+.logo2 img{
+  height: 80px;
+  width:auto;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.devider2{
+  width: 90%;
+  height: 2px;
+  background-color: #fcfafa;
+  margin: 40px;
+}
+
+.left{
+margin: 40px;
+}
+
+.mid{
+  margin: 40px;
+  text-align: center;
+}
+
+.right{
+  margin: 40px;
+  text-align: end;
+}
+
+/* new footer */
+.footer {
+  margin: 0 auto;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  padding: 20px 7% 20px;
+  background-color: #3d88ea;
+}
+.footer-logo{
+  height: 90px;
+  width: auto;
+}
+.twoColumn:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.soLinkGen a{
+  color: #fcfafa;
+  font-size: 18px;
+  margin-right: 12px;
+}
+.mwPageBlock {
+  position: relative;
+  margin: 0px !important;
+  padding: 0px;
+}
+
+.right {
+  margin: 40px;
+  text-align: end;
+}
+.footer .divider {
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  margin: 40px 0;
+}
+.toTop {
+  position: absolute;
+  cursor: pointer;
+  top: -30px;
+  right: 0;
+  font-size: 15pt;
+  color: #fff;
+}
+.footerColWrap:after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.footerColA {
+  width: 33%;
+  float: left;
+  margin: 0 9% 0 0;
+}
+.footerColB {
+  width: 30%;
+  float: left;
+  margin: 0 6% 0 0;
+}
+.mwPageBlock {
+  position: relative;
+  margin: 0px !important;
+  padding: 0px;
+}
+.mwPageBlock, .mwPageArea {
+  padding: 0px;
+  clear: both;
+}
+.footer h4{
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.footer p {
+  color: #fff;
+}
+.footer p {
+  margin: 0 0 30px;
+  padding-bottom: 0;
+  font-size: 18px;
+  font-weight: 100;
+}
+.footerColC {
+  width: 21%;
+  float: left;
+}
+.copyrightWrap {
+  background: #eeeeee;
+}
